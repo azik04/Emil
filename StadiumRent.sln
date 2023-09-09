@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumRent", "StadiumRent\StadiumRent.csproj", "{B07221D6-4F62-4F2E-810C-ECB58A05C8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9B7A9930-CBC8-48B0-B765-958A791D406D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumRent.Domain", "StadiumRent.Domain\StadiumRent.Domain.csproj", "{5ECBB124-B6FE-4385-BDCF-E97AA83B9015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DD7038F2-BCC0-4481-BFDE-AF9C28B8B94B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumRent.DAL", "StadiumRent.DAL\StadiumRent.DAL.csproj", "{E1A1B2A8-3474-495A-9584-B783EA743359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{3A27384D-EC2C-497E-9D8B-AD0585477D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StadiumRent.BLL", "StadiumRent.BLL\StadiumRent.BLL.csproj", "{E5529FFD-9B27-49FC-B0BE-7095814D5331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07221D6-4F62-4F2E-810C-ECB58A05C8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07221D6-4F62-4F2E-810C-ECB58A05C8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07221D6-4F62-4F2E-810C-ECB58A05C8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07221D6-4F62-4F2E-810C-ECB58A05C8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECBB124-B6FE-4385-BDCF-E97AA83B9015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECBB124-B6FE-4385-BDCF-E97AA83B9015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECBB124-B6FE-4385-BDCF-E97AA83B9015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECBB124-B6FE-4385-BDCF-E97AA83B9015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A1B2A8-3474-495A-9584-B783EA743359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A1B2A8-3474-495A-9584-B783EA743359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A1B2A8-3474-495A-9584-B783EA743359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A1B2A8-3474-495A-9584-B783EA743359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5529FFD-9B27-49FC-B0BE-7095814D5331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5529FFD-9B27-49FC-B0BE-7095814D5331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5529FFD-9B27-49FC-B0BE-7095814D5331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5529FFD-9B27-49FC-B0BE-7095814D5331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ECBB124-B6FE-4385-BDCF-E97AA83B9015} = {9B7A9930-CBC8-48B0-B765-958A791D406D}
+		{E1A1B2A8-3474-495A-9584-B783EA743359} = {DD7038F2-BCC0-4481-BFDE-AF9C28B8B94B}
+		{E5529FFD-9B27-49FC-B0BE-7095814D5331} = {3A27384D-EC2C-497E-9D8B-AD0585477D22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7DD6CC3-DD91-40CA-970D-921963D2199B}
+	EndGlobalSection
+EndGlobal
