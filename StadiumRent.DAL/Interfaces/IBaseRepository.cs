@@ -11,7 +11,7 @@ namespace StadiumRent.DAL.Interfaces
         Task<bool> CreateAsync(T Entity);
         IQueryable<T> GetAll();
 
-        Task<T> Update(T Entity);
         Task<bool> Delete(T entity);
+        Task<T> Update(T Entity);
     }
 }

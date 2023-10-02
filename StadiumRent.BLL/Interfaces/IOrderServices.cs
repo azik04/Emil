@@ -10,9 +10,9 @@ namespace StadiumRent.BLL.Interfaces
 {
     public interface IOrderServices
     {
+        Task<IBaseResponse<Orders>> CreateAsync(Orders model);
         IBaseResponse<List<Orders>> GetAll();
         Task<IBaseResponse<bool>> DeleteAsync(int id);
-        Task<IBaseResponse<Orders>> CreateAsync(Orders model);
         Task<IBaseResponse<Orders>> UpdateAsync(int id, Orders model);
     }
 }
